@@ -1,0 +1,384 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.home-countainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.home {
+	background: url(../images/Star-Wars-Battlefront-II-combat.jpg) no-repeat
+		center / cover;
+}
+
+.home-title {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: rgb(255, 255, 255);
+}
+
+.home-text {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: rgb(255, 255, 255);
+	margin: 0 0 100px 0;
+}
+
+.home-button {
+	background: #8dd83d;
+	border-radius: 4px;
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: all 0.7s ease 0s;
+}
+
+.home-button:hover {
+	background: #8dd83d;
+	box-shadow: 0 0 10px 0;
+}
+
+.home-button:hover {
+	background: #8dd83d;
+	box-shadow: 0 0 10px 0 #8dd83d;
+}
+
+.games {
+	padding: 60px 0 160px 0;
+	background: linear-gradient(gray, rgb(80, 80, 80));
+}
+
+.games-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.games-title {
+	text-align: center;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 40px;
+	color: #ffffff;
+	margin: 16px 0 40px 0;
+}
+
+.games-subtitle {
+	display: block;
+	font-size: 36px;
+}
+
+.games-card {
+	flex: 0 0 320px;
+	max-width: 320px;
+	background: #ffffff;
+	border-radius: 4px;
+	border: 1px solid #8dd83d;
+	overflow: hidden;
+}
+
+.card-image {
+	margin-bottom: 20px;
+	height: 180px;
+}
+
+.card-image-01 {
+	background: url(../images/card-image-01.jpg) no-repeat center / cover;
+}
+
+.card-image-02 {
+	background: url(../images/card-image-02.jpg) no-repeat center / cover;
+}
+
+.card-image-03 {
+	background: url(../images/card-image-03.jpg) no-repeat center / cover;
+}
+
+.card-body {
+	padding: 22px;
+}
+
+.card-title {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #435766;
+	margin: 0 0 11px 0;
+}
+
+.card-text {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #435766;
+	margin: 0 0 36px;
+}
+
+.card-button {
+	display: block;
+	padding: 20px 30px;
+	text-align: center;
+	text-decoration: none;
+	background: #8dd83d;
+	color: #ffffff;
+}
+
+.games-content {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+.header {
+	background: #373a3c;
+	padding: 11px 0;
+	border-bottom: 2px solid #777777;
+}
+
+.container-header {
+	display: flex;
+	align-items: center;
+}
+
+.menu {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu-link {
+	font-size: 16px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	margin: 0 0 0 25px;
+	transition: all 0.5s ease 0s;
+}
+
+.menu-link:hover {
+	color: #ffffff;
+	text-shadow: 0 0 5px #ffffff;
+}
+
+.pads {
+	padding: 114px 0 145px 0;
+	background: url(../images/Controlers.png) no-repeat center / cover;
+}
+
+.container-2 {
+	max-width: 1017px;
+	margin: 0 auto;
+}
+
+.pads-title {
+	font-size: 48px;
+	line-height: 56px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.pads-text {
+	font-size: 24px;
+	line-height: 28px;
+	color: #fff;
+	margin-bottom: 37px;
+	min-width: 530px;
+}
+
+.pads-block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.pads-button {
+	padding: 20px 50px;
+	background: #373a3c;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 21px;
+	color: #fff;
+	border-radius: 4px;
+	transition: all 0.5 ease 0s;
+}
+
+.pads-button:hover {
+	background: #8dd83d;
+	box-shadow: 0 0 10px 0;
+}
+.xbox-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.xbox-card {
+	flex: 0 0 320px;
+	border-radius: 4px;
+	background: #fff;
+	box-sizing: border-box;
+	opacity: 0.9;
+	border: 1px solid #8dd83d;
+	border-radius: 4px;
+}
+.card-link {
+	display: block;
+	padding: 20px 30px;
+	color: green;
+	text-decoration: none;
+	bottom: unset;
+}
+
+.exclusive {
+	padding: 97px 0 145px 0;
+	background: url(../images/exclusive-bg.jpg) no-repeat center / cover;
+}
+
+.exclusive-image-1 {
+	padding: 97px 0 145px 0;
+	background: url(../images/exclusive-image-1.jpg) no-repeat center / cover;
+}
+
+.exclusive-image-2 {
+	padding: 97px 0 145px 0;
+	background: url(../images/exclusive-image-2.jpg) no-repeat center / cover;
+}
+
+.exclusive-image-3 {
+	padding: 97px 0 145px 0;
+	background: url(../images/exclusive-image-3.jpg) no-repeat center / cover;
+}
+
+.exclusive-image-4 {
+	padding: 97px 0 145px 0;
+	background: url(../images/exclusive-image-4.jpg) no-repeat center / cover;
+}
+
+.exclusive-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 58px auto 0 auto;
+	width: 207px;
+	height: 55px;
+	font-size: 21px;
+	line-height: 21px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+	transition: all 0.5 ease 0s;
+}
+
+.exclusive-link:hover {
+	background: #8dd83d;
+}
+.xbox-title {
+	font-size: 45px;
+	line-height: 57px;
+	text-align: center;
+	color: #8dd83d;
+}
+
+.menu-icon {
+	flex: 0 0 35px;
+	height: 35px;
+	background: url(../images/menu-01.svg) no-repeat center / cover;
+	position: relative;
+	z-index: 11;
+	display: none;
+}
+
+@media (max-width: 600px) {
+	.menu-icon {
+		display: block;
+	}
+
+	.menu {
+		position: fixed;
+		top: -100%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: green;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+		transition: all 0.5s ease 0s;
+	}
+
+	.menu-link {
+		margin: 0;
+		font-size: 40px;
+	}
+
+	.menu.active {
+		top: 0;
+		margin: 0;
+	}
+}
+.footer {
+	padding: 58px 0 0 0;
+	background: #373a3c;
+}
+.footer-content {
+	display: flex;
+}
+
+.footter-block {
+	flex: 0 0 33.333%;
+	padding: 0 0 0 65px;
+}
+.footer-title {
+	margin: 0 0 34px 0;
+	font-size: 21px;
+	color: #7dd42f;
+}
+.footer-link {
+	display: block;
+	margin: 0 0 28px 0;
+	font-size: 14px;
+	line-height: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+.footer-social {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.Footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0 40px 0;
+	border-top: 1px solid #fff;
+}
+.footer-text {
+	font-size: 16px;
+	line-height: 19px;
+	color: #fff;
+}
